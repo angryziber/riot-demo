@@ -1,22 +1,31 @@
 Riot.js demo for [devclub.eu](http://devclub.eu)
 ================================================
 
-Script:
+## Topics
 
 * Init
 
-`npm init`
+  * `npm init`
+  * `npm install --save riot`
 
-* Compilation
-
-`npm install --save riot`
-
+* In-browser compilation
 * Styles
 * Embedded script
-* Events
-* Tests
+* Rendering values
+* Handling DOM events
+* Form inputs
 
-`npm install --save-dev karma karma-jasmine karma-phantomjs-launcher`
+* Pre-compilation
+
+  * `export PATH=$PATH:$(npm bin)`
+  * `riot --watch *.tag gen/`
+
+* Events
+
+* Testing
+
+  * `npm install --save-dev karma karma-jasmine karma-phantomjs-launcher`
+  * `karma init`
 
 * Mixins
-* Routes
+* Routing
