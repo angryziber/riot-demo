@@ -24,7 +24,7 @@ Riot.js demo for [devclub.eu](http://devclub.eu)
 
 * Testing
 
-  * `npm install --save-dev karma karma-jasmine karma-phantomjs-launcher`
+  * `npm install --save-dev karma jasmine-core karma-jasmine karma-chrome-launcher`
   * `karma init`
 
 * Mixins
