@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
   <script src="node_modules/riot/riot+compiler.js"></script>
-  <script src="hello-with-input.tag" type="riot/tag"></script>
+  <script src="greeting.tag" type="riot/tag"></script>
 </head>
 <body>
-  <hello who="World"></hello>
+  <greeting who="World"></greeting>
   <script>
-    riot.compile(function() {
-      riot.mount('*');
-    });
+    riot.compile(() => riot.mount('*'));
   </script>
 </body>
 </html>
