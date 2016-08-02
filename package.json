@@ -1,0 +1,29 @@
+{
+  "name": "riot-demo",
+  "version": "1.0.0",
+  "description": "Riot.js demo for [devclub.eu](http://devclub.eu) ================================================",
+  "main": "index.js",
+  "scripts": {
+    "start": "riot -w *.tag",
+    "test": "riot *.tag && karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angryziber/riot-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angryziber/riot-demo/issues"
+  },
+  "homepage": "https://github.com/angryziber/riot-demo#readme",
+  "dependencies": {
+    "riot": "^2.5.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.2",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
+  }
+}
