@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="node_modules/riot/riot+compiler.js"></script>
+  <script src="hello-with-input.tag" type="riot/tag"></script>
+</head>
+<body>
+  <hello who="World"></hello>
+  <script>
+    riot.compile(function() {
+      riot.mount('*');
+    });
+  </script>
+</body>
+</html>
