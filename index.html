@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <script src="node_modules/riot/riot.js"></script>
-  <script src="hello.js"></script>
+  <title>Riot.js with in-browser compilation</title>
+  <script src="node_modules/riot/riot+compiler.js"></script>
+  <script src="hello.tag" type="riot/tag"></script>
 </head>
 <body>
   <hello who="World"></hello>
   <script>
-    riot.mount('*');
+    riot.compile(() => riot.mount('*'));
   </script>
 </body>
 </html>
