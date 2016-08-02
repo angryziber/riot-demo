@@ -4,8 +4,9 @@
   "description": "Riot.js demo for [devclub.eu](http://devclub.eu) ================================================",
   "main": "index.js",
   "scripts": {
-    "start": "riot -w *.tag",
-    "test": "riot *.tag && karma start"
+    "watch": "riot -w *.tag gen",
+    "start": "http-server",
+    "test": "riot *.tag gen && karma start"
   },
   "repository": {
     "type": "git",
